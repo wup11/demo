@@ -1,4 +1,10 @@
 Demo::Application.routes.draw do
+  resources :disks
+
+
+  resources :cars
+
+
   resources :books
 
 
